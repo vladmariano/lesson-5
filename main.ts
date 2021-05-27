@@ -58,7 +58,7 @@ spaceship = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(spaceship)
 spaceship.setStayInScreen(true)
-game.onUpdateInterval(1000, function () {
+game.onUpdateInterval(900, function () {
     enemyship = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . 2 2 2 . . 
